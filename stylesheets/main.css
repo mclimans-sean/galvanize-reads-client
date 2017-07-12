@@ -13,3 +13,30 @@ header {
   height: 3em;
   width: 3em;
 }
+
+.main-select {
+  display: flex;
+  justify-content: space-around;
+}
+
+.select-one {
+  text-decoration: none !important;
+  text-decoration-color: none;
+}
+
+.select-image {
+  width: 30%;
+}
+/*
+  =====================================
+  BOOKS.HTML
+  =====================================
+*/
+
+.book-details {
+  display: flex;
+}
+
+.book-cover {
+  height: 15em;
+}
