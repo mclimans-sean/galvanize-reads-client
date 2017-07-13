@@ -42,6 +42,10 @@ header {
   height: 15em;
 }
 
+.books-display {
+  margin: 5%;
+}
+
 /*
   ====================================
   ADDBOOK.HTML FORM
@@ -58,5 +62,5 @@ header {
 }
 
 .author-list {
-  
+
 }

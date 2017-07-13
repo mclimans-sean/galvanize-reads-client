@@ -40,15 +40,15 @@
         <!-- Cover Art URL input field -->
 
         <div class="form-group add-input">
-          <label for="inputCoverURL" class="col-lg-2 control-label">Genre</label>
+          <label for="inputCoverURL" class="col-lg-2 control-label">Book Cover</label>
           <input type="text" class="form-control" id="inputCoverURL" placeholder="Cover Art URL">
         </div>
 
         <!-- Description Input Field -->
 
         <div class="form-group add-input">
-          <label for="textArea" class="col-lg-2 control-label">Description</label>
-          <textarea class="form-control" rows="3" id="textArea"></textarea>
+          <label for="inputDesc" class="col-lg-2 control-label">Description</label>
+          <textarea class="form-control" rows="3" id="inputDesc"></textarea>
         </div>
 
         <!-- Author Dropdown List -->
@@ -75,7 +75,7 @@
         </div>
         <div class="form-group">
           <div class="col-lg-10 col-lg-offset-2">
-            <button type="submit" class="btn btn-primary">Add Book</button>
+            <button type="button" class="btn btn-primary" id="create-book">Add Book</button>
           </div>
         </div>
       </fieldset>
@@ -83,7 +83,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js" charset="utf-8"></script>
-    <script src="../scripts/app.js" charset="utf-8"></script>
+    <script src="../scripts/addbook.js" charset="utf-8"></script>
   </body>
 </html>
