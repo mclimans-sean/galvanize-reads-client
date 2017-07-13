@@ -41,3 +41,22 @@ header {
 .book-cover {
   height: 15em;
 }
+
+/*
+  ====================================
+  ADDBOOK.HTML FORM
+  ====================================
+*/
+
+.add-form {
+  width: 40%;
+  margin-left: 20%;
+}
+
+.add-input {
+  max-width: 80%;
+}
+
+.author-list {
+  
+}

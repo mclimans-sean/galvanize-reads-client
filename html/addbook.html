@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galvanize Reads || Add Book</title>
+    <link rel="stylesheet" href="https://bootswatch.com/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+  </head>
+  <body>
+
+    <header class="container">
+      <div class="logo">
+        <a href="../index.html"><img src="../assets/gbooks.png" alt="greads-logo"></a>
+      </div>
+      <div class="company-name">
+        <h1>Galvanize Reads</h1>
+      </div>
+
+    </header>
+
+<!-- Form to add a book -->
+
+    <form class="form-horizontal add-form">
+      <fieldset>
+
+        <!-- Title Input Field -->
+
+        <div class="form-group add-input">
+          <label for="inputTitle" class="col-lg-2 control-label">Title</label>
+          <input type="text" class="form-control" id="inputTitle" placeholder="ex, 'The Hills Have Farts'">
+        </div>
+
+        <!-- Genre Input Field -->
+
+        <div class="form-group add-input">
+          <label for="inputGenre" class="col-lg-2 control-label">Genre</label>
+          <input type="text" class="form-control" id="inputGenre" placeholder="Genre">
+        </div>
+
+        <!-- Cover Art URL input field -->
+
+        <div class="form-group add-input">
+          <label for="inputCoverURL" class="col-lg-2 control-label">Genre</label>
+          <input type="text" class="form-control" id="inputCoverURL" placeholder="Cover Art URL">
+        </div>
+
+        <!-- Description Input Field -->
+
+        <div class="form-group add-input">
+          <label for="textArea" class="col-lg-2 control-label">Description</label>
+          <textarea class="form-control" rows="3" id="textArea"></textarea>
+        </div>
+
+        <!-- Author Dropdown List -->
+
+        <div class="form-group add-input">
+          <label for="select" class="col-lg-2 control-label">Authors</label>
+          <br>
+          <select multiple="" class="form-control author-list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br>
+          <select class="form-control author-select" id="select">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+
+        </div>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="submit" class="btn btn-primary">Add Book</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js" charset="utf-8"></script>
+    <script src="../scripts/app.js" charset="utf-8"></script>
+  </body>
+</html>
