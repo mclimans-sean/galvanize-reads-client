@@ -50,6 +50,12 @@ header {
   max-width: 90%;
 }
 
+.book-info {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 /*
   ====================================
   ADDBOOK.HTML FORM

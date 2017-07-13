@@ -40,11 +40,21 @@
           <img src='{{cover_url}}' class='book-cover'></img>
         </div>
         <div class='panel-body'>
-          <h2 class='book-in-list'>{{title}}</h2>
-          <p class='book-in-list'>{{genre}}</p>
+          <div class=" book-info">
+            <div>
+              <h2 class='book-in-list'>{{title}}</h2>
+              <p class='book-in-list'>{{genre}}</p>
+            </div>
+            <div class="book-buttons">
+              <a href="#" class="btn btn-success btn-sm" id="edit-book" data-book="{{id}}">edit</a>
+              <a href="#" class="btn btn-default btn-sm" id="delete-book" data-book="{{id}}">remove</a>
+            </div>
+          </div>
+
           <p class='book-in-list'>{{description}}</p>
+
         </div>
-        </div>
+      </div>
       {{/each}}
     </script>
   </body>
